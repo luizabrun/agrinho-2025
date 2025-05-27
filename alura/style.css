@@ -1,0 +1,157 @@
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1e3c72;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Navegação */
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f9a825;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Seções */
+.conteudo {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #1e3c72;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Artigos */
+article {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+    font-size: 1.8em;
+    color: #1e3c72;
+    margin-bottom: 15px;
+}
+
+article p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1e3c72;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .cta-footer {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #f9a825;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+footer .cta-footer:hover {
+    background-color: #ff6f00;
+}
+
+footer p {
+    margin-top: 15px;
+    font-size: 1em;
+}
+
+/* Imagens */
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Estilo específico para o link das imagens */
+a img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Efeitos de transição e animações */
+h2, article h3 {
+    transition: transform 0.3s ease-in-out;
+}
+
+h2:hover, article h3:hover {
+    transform: scale(1.05);
+}
